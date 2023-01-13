@@ -1,0 +1,6 @@
+cx_Freeze é uma ferramenta que permite que você converta seu código Python em um executável para Windows, Linux e Mac OS X. Para usá-lo, você precisa instalá-lo primeiro usando o pip:
+
+pip install cx_Freeze
+Depois de instalado, você pode usar o seguinte comando para criar um executável:
+
+cxfreeze script.py --target-dir dist
